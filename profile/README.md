@@ -1,8 +1,8 @@
-<p align="center">
+<div align="center">
 
 # 🕷️ Spid3r Package Registry
 
-</p>
+</div>
 
 <p align="center">
   <strong>A secure, lightweight, and cryptographically verified package registry for the Spid3r ecosystem.</strong>
@@ -105,6 +105,12 @@ The registry uses **Ed25519 digital signatures** to provide cryptographic verifi
 - **Digital Signatures:** The signed registry index enables authenticity verification.
 - **Registry Verification:** Use `spkg verify` to verify the registry.
 
+
+---
+
+
+<div align="center">
+  
 Always use the official registry endpoint:
 
 ```text
@@ -114,6 +120,11 @@ https://spid3r-spkg.github.io/
 Never trust an alternative registry or public key unless its authenticity has been independently verified.
 
 ---
+
+</div>
+
+
+
 
 <p align="center">
   <strong>🕷️ Spid3r Package Registry</strong>
